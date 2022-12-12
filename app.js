@@ -5,10 +5,11 @@ const color = document.querySelector(".color");
 
 btn.addEventListener('click', function () {
 
-    const randomNumber = getRandomNumber();
+    const randomNumber = parseInt(getRandomNumber());
+    console.log("#####");
 
-    document.body.style.backgroundColor = colors[randomNumber];
-    color.textContent = colors[randomNumber];
+    document.body.style.backgroundColor = colors[4];
+    color.textContent = colors[4];
 
 })
 
